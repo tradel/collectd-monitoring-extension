@@ -1,0 +1,10 @@
+# prefix used to create metrics in AppDynamics
+metricPrefix:  "Custom Metrics|collectd|"
+
+# IP address and port number for the UDP listener
+listenAddress: "127.0.0.1:25628"
+
+# IP address bound to the multicast interface
+# interfaceAddress: "127.0.0.1"
+
+sendOnlyChanges: false
