@@ -120,4 +120,5 @@ public class CollectdMonitor extends AManagedMonitor {
         Map<String, String> params = new HashMap<String, String>();
         CollectdMonitor monitor = new CollectdMonitor();
         monitor.execute(params, null);
-    }}
+    }
+}
